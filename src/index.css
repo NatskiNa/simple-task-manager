@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 45px;
+  color: aliceblue;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px black;
+}
+
+header {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(115, 122, 137);
+  padding: 4px 10%;
+  margin-bottom: 50px;
+}
+
+.app {
+  background: url(../src/images/sea2.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.taskCard {
+  width: 270px;
+  padding: 10px 15px 20px;
+  margin: 10px 1%;
+  background-color: rgb(235, 236, 238, 0.5);
+  border-radius: 5px;
+}
+
+.taskCardBox {
+  margin-bottom: 15px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.taskCardTitleInput {
+  width: 85%;
+  font-size: 1.1rem;
+  padding: 4px 6px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.taskAddInput {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.taskBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.taskText {
+  margin-left: 10px;
+}
+
+.taskTrashButton {
+  margin-right: 9px;
+  border: none;
+  cursor: pointer;
+}
+
+.taskCardsArea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.addTaskCardButtonArea {
+  margin-left: 1%;
+  margin-top: 25px;
+}
+
+.addTaskCardButton {
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: rgb(235, 236, 238);
+  box-shadow: 3px 3px 7px 1px black;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+}
+
+.addTaskCardButton:hover {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.cardTitleAndCardDeleteButtonArea {
+  display: flex;
+}
+
+.taskCardDeleteButton {
+  border: none;
+  justify-content: flex-end;
+  background-color: rgb(235, 236, 238, 0);
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(131, 7, 7);
+}
